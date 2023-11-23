@@ -14,6 +14,7 @@ public class PartyTest {
     }
     @Test
     void testSummerParty() {
+        // That's why generally CTOR is prefered over @Autowired annotation:
         Party summerParty = new SummerParty(new TestPerformer());
 
         String performance = summerParty.start();

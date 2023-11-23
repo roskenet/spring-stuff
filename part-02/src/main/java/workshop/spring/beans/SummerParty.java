@@ -1,5 +1,7 @@
 package workshop.spring.beans;
 
+import java.util.Locale;
+
 public class SummerParty implements Party {
 
     private Performer performer;
@@ -10,6 +12,6 @@ public class SummerParty implements Party {
 
     @Override
     public String start() {
-        return performer.doSomething();
+        return performer.doSomething().toUpperCase(Locale.US);
     }
 }

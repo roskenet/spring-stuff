@@ -9,7 +9,7 @@ public class PartyTest {
     class TestPerformer implements Performer {
         @Override
         public String doSomething() {
-            return "NOTHING";
+            return "I do nothing!";
         }
     }
     @Test
@@ -18,6 +18,6 @@ public class PartyTest {
 
         String performance = summerParty.start();
 
-        assertThat(performance).isEqualTo("NOTHING");
+        assertThat(performance).isEqualTo("I DO NOTHING!");
     }
 }

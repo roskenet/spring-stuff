@@ -8,8 +8,9 @@
   <artifactId>party-performer-parent</artifactId>
   <version>1.0.0</version>
 
-  <name>parent-project</name>
-  <url>http://www.example.com</url>
+  <packaging>pom</packaging>
+
+  <name>Parent POM</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

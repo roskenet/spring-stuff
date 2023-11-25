@@ -10,7 +10,7 @@
 
   <packaging>pom</packaging>
 
-  <name>parent-project</name>
+  <name>Aggregator POM</name>
   <url>http://www.example.com</url>
 
   <properties>

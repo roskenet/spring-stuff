@@ -15,6 +15,7 @@
         <groupId>de.felixroske</groupId>
         <artifactId>party-performer-parent</artifactId>
         <version>1.0.0</version>
+        <relativePath>../party-performer-parent</relativePath>
     </parent>
 
     <properties>

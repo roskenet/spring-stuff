@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class Application : CommandLineRunner {
+class Application() : CommandLineRunner {
 
     @Autowired
     lateinit var performer: Performer

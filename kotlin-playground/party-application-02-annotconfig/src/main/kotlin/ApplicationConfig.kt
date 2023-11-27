@@ -6,7 +6,7 @@ import workshop.beans.SummerParty
 
 class ApplicationConfig {
     @Bean
-    fun performer():Performer = Singer()
+    fun performer(): Performer = Singer()
 
     @Bean
     fun party(performer: Performer): Party = SummerParty(performer)

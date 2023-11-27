@@ -13,17 +13,12 @@
   <name>Aggregator POM</name>
   <url>http://www.example.com</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
-  </properties>
-
   <modules>
       <module>party-performer-parent</module>
       <module>performer-api</module>
       <module>singer</module>
       <module>juggler</module>
-      <module>party-application</module>
+      <module>party-application-00-noioc</module>
+      <module>party-application-01-xmlconfig</module>
   </modules>
 </project>

@@ -17,8 +17,12 @@
       <module>party-performer-parent</module>
       <module>performer-api</module>
       <module>singer</module>
+      <module>singer-starter</module>
       <module>juggler</module>
+      <module>juggler-starter</module>
       <module>party-application-00-noioc</module>
       <module>party-application-01-xmlconfig</module>
+      <module>party-application-02-annotconfig</module>
+      <module>party-application-03-bootconfig</module>
   </modules>
 </project>

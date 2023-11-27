@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>party-application-01-xmlconfig</artifactId>
+    <artifactId>party-application-02-annotconfig</artifactId>
     <groupId>de.felixroske</groupId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Party Application XML Config</name>
+    <name>Party Application Annotation Config</name>
 
     <parent>
         <groupId>de.felixroske</groupId>

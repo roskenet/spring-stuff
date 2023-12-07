@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.felixroske</groupId>
-  <artifactId>party-performer</artifactId>
+  <artifactId>party-application</artifactId>
   <version>1.0.0</version>
 
   <packaging>pom</packaging>
@@ -24,6 +24,5 @@
       <module>party-application-01-xmlconfig</module>
       <module>party-application-02-annotconfig</module>
       <module>party-application-03-bootconfig</module>
-      <module>config-example</module>
   </modules>
 </project>

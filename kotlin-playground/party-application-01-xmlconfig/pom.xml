@@ -70,6 +70,11 @@
             <version>1.0.0</version>
         </dependency>
         <dependency>
+            <groupId>de.felixroske</groupId>
+            <artifactId>juggler</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>6.1.0</version>

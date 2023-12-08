@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.5</version>
+        <version>3.2.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -36,16 +36,16 @@
             <artifactId>kotlin-stdlib</artifactId>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>de.felixroske</groupId>-->
-<!--            <artifactId>juggler-starter</artifactId>-->
-<!--            <version>1.0.0</version>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>de.felixroske</groupId>
-            <artifactId>singer-starter</artifactId>
+            <artifactId>juggler-starter</artifactId>
             <version>1.0.0</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>de.felixroske</groupId>-->
+<!--            <artifactId>singer-starter</artifactId>-->
+<!--            <version>1.0.0</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

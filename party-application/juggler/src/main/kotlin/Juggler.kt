@@ -1,7 +1,7 @@
 package de.felixroske.performer
 
-class Juggler : Performer {
+class Juggler(val item: String, val num: Int) : Performer {
     override fun doSomething(): String {
-        return "I am juggling with three balls!"
+        return "I am juggling with ${num} ${item}!"
     }
 }

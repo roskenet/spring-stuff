@@ -13,7 +13,6 @@ fun main() {
 // Comparable to a switch/case in other languages:
 fun switchMe(hobbit: String) =
     when(hobbit) {
-        "Frodo" -> "$hobbit is a Beutlin!"
-        "Bilbo" -> "$hobbit is a Beutlin!"
+        "Frodo", "Bilbo" -> "$hobbit is a Beutlin!"
         else -> "Not a Beutlin!"
     }
